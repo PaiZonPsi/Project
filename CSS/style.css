@@ -11,15 +11,16 @@ body
     color: red;
 }
 
-table, tr, th, td {
-    border: 8px, solid, rgb(153, 11, 11);
+
+table, tr, th, td{
+    border: solid 1px grey;
     border-collapse: collapse;
     text-align: center;
     padding: 8px;
     margin: 10px;
-}
-
-th{
+  }
+  
+  th{
     background-color: black;
     color: aliceblue;
-}
+  }
