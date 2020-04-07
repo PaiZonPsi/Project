@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET">
+        <input type="text" name="name" id="name" placeholder="Name" autofocus autocomplete="off"><br>
+        <input type="text" name="surname" id="surname" placeholder="Surname" checked><br>
+        <input type="password" name="pass" id="pass" placeholder="Password"><br>
+        <input type="radio" value="red" name="color">red
+        <input type="radio" value="red" name="color">green
+        <input type="radio" value="red" name="color">blue<br>
+        <select name="city">
+            <optgroup label="Wielkopolskie">
+                    <option value="p">Poznań</option>
+                    <option value="g">Gniezno</option>
+            </optgroup>
+            <optgroup label="Zachodniopomorskie">
+                <option value="s">Stargard</option>
+                <option value="sz">Szczecin</option>
+            </optgroup>
+        </select>
+        <input type="date" name="date" id="date"><br>
+        <input type="submit" name="button" value="Send">
+    </form>
+</body>
+</html>
